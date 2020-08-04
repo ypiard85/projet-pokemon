@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+}
+
+img[role="pokemon"]{
+    max-width: 150px;
+    height: 150px;
+}
+
+img[role="type"]{
+    width: 50px;
+}
