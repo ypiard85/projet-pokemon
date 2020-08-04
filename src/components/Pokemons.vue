@@ -21,7 +21,7 @@
           <img role="type" :src="type" alt="">
         </div>
       </div>
-      <button v-if="hover" class="btn blue right">VOIR PLUS</button>
+      <router-link :to="{name: 'view', params: {id: pokemon.id } }"><button v-if="hover" class="btn blue right">VOIR PLUS</button></router-link> 
       </div>
     </div>
 
@@ -42,7 +42,7 @@
 
       mounted(){
           if(this.pokemon.type == 'electrique'){
-            this.type = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrSQk2WVru8_01NIH1GFXsPFRxutqq63uH9Q&usqp=CAU'
+            this.type = 'https://margxt.fr/wp-content/uploads/2018/12/Pokemon-Go-Electrique.png'
           }else if(this.pokemon.type == 'plante'){
             this.type = 'https://static3.cards-capital.com/43565-product/lot-de-10-cartes-plante-pokemon.jpg'
           }else if(this.pokemon.type == 'feux'){

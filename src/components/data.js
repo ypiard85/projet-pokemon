@@ -4,7 +4,7 @@ const pokemons =
         id: '1',
         name: 'Pikachu',
         pv: '34',
-        logo: 'https://i.pinimg.com/originals/f5/1d/08/f51d08be05919290355ac004cdd5c2d6.png',
+        logo: 'https://pngimg.com/uploads/pokemon/pokemon_PNG9.png',
         type: 'electrique'
     },
     {
@@ -18,7 +18,7 @@ const pokemons =
         id: '3',
         name: 'Salameche',
         pv: '80',
-        logo: 'https://www.geeknplay.fr/wp-content/uploads/2019/11/Salam%C3%A8che.jpg',
+        logo: 'https://i.pinimg.com/originals/46/3d/fc/463dfcdb65ff999a47ab0183ba3248ce.png',
         type: 'feux'
     },
 ]
